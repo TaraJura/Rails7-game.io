@@ -1,0 +1,26 @@
+%p.green
+    = "Server:"
+%div#status.green
+    = "no status"
+%p.blue
+    = "Player 1:"
+%p#player1.blue
+    = "no status"
+%p.blue
+    = "Player 2:"
+%p#player2.blue
+    = "no status"
+%h1#winner
+    = "No winner yet"
+
+%div#p1connecteddiv{data: {controller: "player1"}, style: "position: fixed; z-index: 5; top: 50px; right: 250px;"}
+    %button{"data-action" => "click->player1#start"} 
+        = "become Player 1"
+%div#p2connecteddiv{data: {controller: "player2"}, style: "position: fixed; z-index: 5; top: 50px; right: 50px;"}
+    %button{"data-action" => "click->player2#start"} 
+        = "become Player 2"
+=content_tag(:canvas, "", data: {controller: "threejs"}, id: "myCanvas")
+=action_cable_meta_tag
+
+%p#p1position{style: "position: fixed; z-index: 5; top: 5px; right: 50vw;"}
+%p#p2position{style: "position: fixed; z-index: 5; top: 5px; right: 55vw;"}

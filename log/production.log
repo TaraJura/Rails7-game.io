@@ -1,0 +1,108 @@
+W, [2022-10-30T14:49:52.249118 #42867]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-10-30T14:49:56.031307 #42867]  INFO -- : [16f37023-e868-4c53-a828-d055696981e1] Started GET "/" for 192.168.0.1 at 2022-10-30 14:49:56 +0100
+I, [2022-10-30T14:49:56.034036 #42867]  INFO -- : [16f37023-e868-4c53-a828-d055696981e1] Processing by HomesController#index as HTML
+I, [2022-10-30T14:49:56.055020 #42867]  INFO -- : [16f37023-e868-4c53-a828-d055696981e1]   Rendered homes/index.html.haml within layouts/application (Duration: 14.8ms | Allocations: 5688)
+I, [2022-10-30T14:49:56.079893 #42867]  INFO -- : [16f37023-e868-4c53-a828-d055696981e1]   Rendered layout layouts/application.html.haml (Duration: 39.9ms | Allocations: 11391)
+I, [2022-10-30T14:49:56.080412 #42867]  INFO -- : [16f37023-e868-4c53-a828-d055696981e1] Completed 500 Internal Server Error in 46ms (Allocations: 12909)
+F, [2022-10-30T14:49:56.082389 #42867] FATAL -- : [16f37023-e868-4c53-a828-d055696981e1]   
+[16f37023-e868-4c53-a828-d055696981e1] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[16f37023-e868-4c53-a828-d055696981e1]      6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+[16f37023-e868-4c53-a828-d055696981e1]      7:     = csrf_meta_tags
+[16f37023-e868-4c53-a828-d055696981e1]      8:     = csp_meta_tag
+[16f37023-e868-4c53-a828-d055696981e1]      9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+[16f37023-e868-4c53-a828-d055696981e1]     10:     = javascript_importmap_tags
+[16f37023-e868-4c53-a828-d055696981e1]     11:   %body
+[16f37023-e868-4c53-a828-d055696981e1]     12:     = yield
+[16f37023-e868-4c53-a828-d055696981e1]   
+[16f37023-e868-4c53-a828-d055696981e1] app/views/layouts/application.html.haml:9
+I, [2022-10-30T14:49:56.445924 #42867]  INFO -- : [d7798233-c075-4dff-bb8f-7e9867854b22] Started GET "/favicon.ico" for 192.168.0.1 at 2022-10-30 14:49:56 +0100
+F, [2022-10-30T14:49:56.446508 #42867] FATAL -- : [d7798233-c075-4dff-bb8f-7e9867854b22]   
+[d7798233-c075-4dff-bb8f-7e9867854b22] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[d7798233-c075-4dff-bb8f-7e9867854b22]   
+I, [2022-10-30T14:50:00.288955 #42867]  INFO -- : [b0edcdca-d62c-442a-bb7d-07215afa802e] Started GET "/" for 192.168.0.1 at 2022-10-30 14:50:00 +0100
+I, [2022-10-30T14:50:00.290341 #42867]  INFO -- : [b0edcdca-d62c-442a-bb7d-07215afa802e] Processing by HomesController#index as HTML
+I, [2022-10-30T14:50:00.291947 #42867]  INFO -- : [b0edcdca-d62c-442a-bb7d-07215afa802e]   Rendered homes/index.html.haml within layouts/application (Duration: 0.2ms | Allocations: 43)
+I, [2022-10-30T14:50:00.295414 #42867]  INFO -- : [b0edcdca-d62c-442a-bb7d-07215afa802e]   Rendered layout layouts/application.html.haml (Duration: 3.7ms | Allocations: 1210)
+I, [2022-10-30T14:50:00.295789 #42867]  INFO -- : [b0edcdca-d62c-442a-bb7d-07215afa802e] Completed 500 Internal Server Error in 5ms (Allocations: 1497)
+F, [2022-10-30T14:50:00.297618 #42867] FATAL -- : [b0edcdca-d62c-442a-bb7d-07215afa802e]   
+[b0edcdca-d62c-442a-bb7d-07215afa802e] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[b0edcdca-d62c-442a-bb7d-07215afa802e]      6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+[b0edcdca-d62c-442a-bb7d-07215afa802e]      7:     = csrf_meta_tags
+[b0edcdca-d62c-442a-bb7d-07215afa802e]      8:     = csp_meta_tag
+[b0edcdca-d62c-442a-bb7d-07215afa802e]      9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+[b0edcdca-d62c-442a-bb7d-07215afa802e]     10:     = javascript_importmap_tags
+[b0edcdca-d62c-442a-bb7d-07215afa802e]     11:   %body
+[b0edcdca-d62c-442a-bb7d-07215afa802e]     12:     = yield
+[b0edcdca-d62c-442a-bb7d-07215afa802e]   
+[b0edcdca-d62c-442a-bb7d-07215afa802e] app/views/layouts/application.html.haml:9
+I, [2022-10-30T14:50:05.647891 #42867]  INFO -- : [acf2762d-7abb-4546-a6ef-022767129ee8] Started GET "/" for 192.168.0.1 at 2022-10-30 14:50:05 +0100
+I, [2022-10-30T14:50:05.649224 #42867]  INFO -- : [acf2762d-7abb-4546-a6ef-022767129ee8] Processing by HomesController#index as HTML
+I, [2022-10-30T14:50:05.650765 #42867]  INFO -- : [acf2762d-7abb-4546-a6ef-022767129ee8]   Rendered homes/index.html.haml within layouts/application (Duration: 0.2ms | Allocations: 43)
+I, [2022-10-30T14:50:05.654305 #42867]  INFO -- : [acf2762d-7abb-4546-a6ef-022767129ee8]   Rendered layout layouts/application.html.haml (Duration: 3.8ms | Allocations: 1209)
+I, [2022-10-30T14:50:05.654636 #42867]  INFO -- : [acf2762d-7abb-4546-a6ef-022767129ee8] Completed 500 Internal Server Error in 5ms (Allocations: 1453)
+F, [2022-10-30T14:50:05.656500 #42867] FATAL -- : [acf2762d-7abb-4546-a6ef-022767129ee8]   
+[acf2762d-7abb-4546-a6ef-022767129ee8] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[acf2762d-7abb-4546-a6ef-022767129ee8]      6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+[acf2762d-7abb-4546-a6ef-022767129ee8]      7:     = csrf_meta_tags
+[acf2762d-7abb-4546-a6ef-022767129ee8]      8:     = csp_meta_tag
+[acf2762d-7abb-4546-a6ef-022767129ee8]      9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+[acf2762d-7abb-4546-a6ef-022767129ee8]     10:     = javascript_importmap_tags
+[acf2762d-7abb-4546-a6ef-022767129ee8]     11:   %body
+[acf2762d-7abb-4546-a6ef-022767129ee8]     12:     = yield
+[acf2762d-7abb-4546-a6ef-022767129ee8]   
+[acf2762d-7abb-4546-a6ef-022767129ee8] app/views/layouts/application.html.haml:9
+W, [2022-10-30T14:50:34.694003 #42927]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-10-30T14:50:36.987526 #42927]  INFO -- : [e510fbfc-309d-4248-98f9-7ca63c84ecdf] Started GET "/" for 192.168.0.1 at 2022-10-30 14:50:36 +0100
+I, [2022-10-30T14:50:36.990250 #42927]  INFO -- : [e510fbfc-309d-4248-98f9-7ca63c84ecdf] Processing by HomesController#index as HTML
+I, [2022-10-30T14:50:37.011395 #42927]  INFO -- : [e510fbfc-309d-4248-98f9-7ca63c84ecdf]   Rendered homes/index.html.haml within layouts/application (Duration: 14.9ms | Allocations: 5688)
+I, [2022-10-30T14:50:37.036472 #42927]  INFO -- : [e510fbfc-309d-4248-98f9-7ca63c84ecdf]   Rendered layout layouts/application.html.haml (Duration: 40.1ms | Allocations: 11397)
+I, [2022-10-30T14:50:37.036947 #42927]  INFO -- : [e510fbfc-309d-4248-98f9-7ca63c84ecdf] Completed 500 Internal Server Error in 46ms (Allocations: 12916)
+F, [2022-10-30T14:50:37.038902 #42927] FATAL -- : [e510fbfc-309d-4248-98f9-7ca63c84ecdf]   
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]      6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]      7:     = csrf_meta_tags
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]      8:     = csp_meta_tag
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]      9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]     10:     = javascript_importmap_tags
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]     11:   %body
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]     12:     = yield
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf]   
+[e510fbfc-309d-4248-98f9-7ca63c84ecdf] app/views/layouts/application.html.haml:9
+I, [2022-10-30T14:51:02.406290 #42927]  INFO -- : [856c3e59-bce7-41db-907d-d65a08665fa0] Started GET "/" for 192.168.0.1 at 2022-10-30 14:51:02 +0100
+I, [2022-10-30T14:51:02.407767 #42927]  INFO -- : [856c3e59-bce7-41db-907d-d65a08665fa0] Processing by HomesController#index as HTML
+I, [2022-10-30T14:51:02.409385 #42927]  INFO -- : [856c3e59-bce7-41db-907d-d65a08665fa0]   Rendered homes/index.html.haml within layouts/application (Duration: 0.2ms | Allocations: 43)
+I, [2022-10-30T14:51:02.412957 #42927]  INFO -- : [856c3e59-bce7-41db-907d-d65a08665fa0]   Rendered layout layouts/application.html.haml (Duration: 3.8ms | Allocations: 1216)
+I, [2022-10-30T14:51:02.413337 #42927]  INFO -- : [856c3e59-bce7-41db-907d-d65a08665fa0] Completed 500 Internal Server Error in 5ms (Allocations: 1503)
+F, [2022-10-30T14:51:02.415191 #42927] FATAL -- : [856c3e59-bce7-41db-907d-d65a08665fa0]   
+[856c3e59-bce7-41db-907d-d65a08665fa0] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[856c3e59-bce7-41db-907d-d65a08665fa0]      6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+[856c3e59-bce7-41db-907d-d65a08665fa0]      7:     = csrf_meta_tags
+[856c3e59-bce7-41db-907d-d65a08665fa0]      8:     = csp_meta_tag
+[856c3e59-bce7-41db-907d-d65a08665fa0]      9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+[856c3e59-bce7-41db-907d-d65a08665fa0]     10:     = javascript_importmap_tags
+[856c3e59-bce7-41db-907d-d65a08665fa0]     11:   %body
+[856c3e59-bce7-41db-907d-d65a08665fa0]     12:     = yield
+[856c3e59-bce7-41db-907d-d65a08665fa0]   
+[856c3e59-bce7-41db-907d-d65a08665fa0] app/views/layouts/application.html.haml:9
+I, [2022-10-30T14:51:33.876607 #42927]  INFO -- : [a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5] Started GET "/" for 192.168.0.1 at 2022-10-30 14:51:33 +0100
+I, [2022-10-30T14:51:33.877905 #42927]  INFO -- : [a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5] Processing by HomesController#index as HTML
+I, [2022-10-30T14:51:33.879529 #42927]  INFO -- : [a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]   Rendered homes/index.html.haml within layouts/application (Duration: 0.2ms | Allocations: 43)
+I, [2022-10-30T14:51:33.883074 #42927]  INFO -- : [a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]   Rendered layout layouts/application.html.haml (Duration: 3.8ms | Allocations: 1215)
+I, [2022-10-30T14:51:33.883433 #42927]  INFO -- : [a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5] Completed 500 Internal Server Error in 5ms (Allocations: 1459)
+F, [2022-10-30T14:51:33.885251 #42927] FATAL -- : [a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]   
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]      6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]      7:     = csrf_meta_tags
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]      8:     = csp_meta_tag
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]      9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]     10:     = javascript_importmap_tags
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]     11:   %body
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]     12:     = yield
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5]   
+[a5d8dee0-a9af-4a2a-8d80-f34b2c261bc5] app/views/layouts/application.html.haml:9
